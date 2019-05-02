@@ -1,0 +1,63 @@
+.body {
+    background: rgb(205, 188, 233)
+}
+
+h2 {
+    text-transform: uppercase;
+}
+#jumbo {
+    color: black;
+    background: rgb(236, 163, 236)
+}
+img {
+    max-width: 100px;
+}
+.col-xs-2 {
+    border:2px solid rgb(5, 5, 80);
+    margin-top: 150px;
+    padding: px;
+    background: linear-gradient(45deg, rgb(140, 140, 240), rgb(241, 162, 241));
+}
+li {
+    display: block;
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    margin-top:-59px;
+}
+#move {
+    margin-top: 59px;
+}
+
+
+.animate {
+    font-size: 3rem;
+    animation-name: rotate;
+    animation-duration: 2s;
+    color: blue;
+    display: block;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+@keyframes rotate {
+    0% {
+        color: blue;  
+    }
+    25% {
+        color: purple;
+    }
+    50% {
+        color: rgb(114, 114, 235)
+    }
+    75% {
+        color: rgb(133, 94, 133);
+    }
+    100% {
+        color: blueviolet
+    }
+}
+h1 {
+    text-align: center;
+}
